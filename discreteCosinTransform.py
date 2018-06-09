@@ -2,14 +2,11 @@ from __future__ import division
 from math import sqrt, cos, pi, pow
 from PIL import Image
 import numpy as np
-from scipy.fftpack import dct, idct
 import os
 import copy
-import time
-from datetime import timedelta
 
-path="/Users/lucas/Documents/Mestrado/Processamento de Imagens/DCT/baboon_faces"
-os.chdir(path)
+#path="/Users/lucas/Documents/Mestrado/Processamento de Imagens/DCT/baboon_faces"
+#os.chdir(path)
 
 # class for hold row, col and value for code matrix
 class node:
